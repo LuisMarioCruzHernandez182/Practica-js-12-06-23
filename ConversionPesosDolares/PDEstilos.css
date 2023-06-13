@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(150deg, white,gold );
+    height: 100vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+imagen{
+    display: flex;
+    width: 250px;
+    margin-left: 350px;
+    margin-top: 50px;
+}

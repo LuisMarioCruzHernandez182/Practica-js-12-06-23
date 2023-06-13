@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Pesos a Dólares</title>
+  <link rel="stylesheet" href="PDEstilos.css">
+</head>
+<body>
+  <h1>Conversor de Pesos a Dólares</h1>
+  <center>
+    <table>
+      <tr>
+        <td>
+          <form id="conversion">
+            <label for="monto">Cantidad:</label>
+            <input type="number" id="monto" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="tipo">Tipo de conversión:</label>
+          <select id="tipo" required>
+            <option value="pesos">Pesos a Dólares</option>
+            <option value="dolares">Dólares a Pesos</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cambio">Valor del dólar:</label>
+          <input type="number" id="cambio" required><br>
+          <center>
+          <button type="submit">Convertir</button>
+          <button type="button" onclick="resetForm()">Limpiar</button>
+          </center>
+        </form>
+        <div id="resultado"></div>
+        </td>
+      </tr>
+    </table>
+    <img src="peso-mexicano-alza-dolar.jpg" alt="DolarPeso" class="imagen">
+  </center>
+
+</body>
+</html>
+<script src="PesosD.js"></script>
